@@ -39,7 +39,7 @@ ADD ./default /etc/nginx/sites-available/
 RUN ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
 
 # Add phpinfo para debug
-ADD ./info.php /var/www/html/
+# ADD ./info.php /var/www/html/
 
 EXPOSE 80
 EXPOSE 443
